@@ -1,18 +1,5 @@
 const express = require('express');
-
+const rotas = require('./rotas/rotas')
 const api = express();
-
-api.use('/secret', (req, res, next)=>{
-    console.log('alguem na area secreta')
-    next()
-})
-
-api.get('/', (req, res)=>{
-    res.send('hello world')
-})
-
-api.get('/secret', (req,res)=>{
-    res.send('entrou na area secreta')
-})
-
+api.use(rotas)
 api.listen(3000)
