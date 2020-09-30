@@ -3,7 +3,7 @@ const users = express.Router()
 
 //users
 users.use('/', (req, res, next)=>{
-    console.log('alguem na area usuarios')
+    console.log('alguem na area usuario')
     next()
 })
 users.get('/', (req, res)=>{
