@@ -1,4 +1,4 @@
---- Resumo
+## Resumo
 Nesta parte da série de tutoriais do nodejs, aprendemos sobre o seguinte:
 
 O que são expressões regulares

@@ -1,4 +1,4 @@
---- Resumo
+## Resumo
 Nesta parte da série de tutoriais node.js, aprendemos sobre o sistema de arquivos em node.js, que inclui:
 
 Introdução ao sistema de arquivos
