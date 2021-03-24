@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.adote {
+    color: rgb(49, 49, 49);
+    margin: 0px 0px 0px 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    background-color: rgb(0, 141, 160);
+    font-family: fantasy;
+    align-items: center;
+    width: 100vw;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    
+}
+.botao{
+    padding: 10px;
+
+}.botao:hover{
+    background-color: rgb(2, 113, 128);
+}
+.home {
+    font-size: large;
+    background-color: rgb(0, 174, 243);
+    font-family: fantasy;
+}
+
+.sobre {
+    font-size: large;
+    background-color: rgb(0, 174, 243);
+    font-family: fantasy;
+}
+
+.contato {
+    font-size: large;
+    background-color: rgb(0, 174, 243);
+    font-family: fantasy;
+}
+
+@media (max-width: 800px) {
+    .adote {
+        display: none
+    }
+    .contaircenter{
+        justify-content:center;
+    }
+}
+@media (max-width:700px){
+    .menurow{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .contaircenter{
+        justify-content:center;
+    }
+}

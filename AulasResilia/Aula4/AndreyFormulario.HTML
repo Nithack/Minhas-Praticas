@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title> Formulario De Inscrição </title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+        body {
+            margin: 0px;
+            font-family: "Cabin";
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background: yellow;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center
+        }
+
+        .cadastro {
+            display: flex;
+
+
+        }
+
+        .formulario {
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        .form {
+            flex-direction: column;
+            justify-content: center;
+
+        }
+
+        .date {
+            text-align: center;
+            height: 2rem;
+            width: 13rem;
+            margin: 5px;
+        }
+
+        input {
+            height: 2rem;
+            width: 13rem;
+        }
+
+        button {
+            margin: 20px;
+        }
+
+        img {
+            border: 8px solid white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="cadrastro row d-flex justify-content-center" align="center">
+
+            <div class="imagem">
+
+                <img src="https://static.wixstatic.com/media/af86ec_48f614ed085449da91fddd64e338fa24~mv2.jpg/v1/crop/x_0,y_65,w_2967,h_2187/fill/w_551,h_406,al_c,q_80,usm_0.66_1.00_0.01/eliott-reyna-iO2d-KYp5JU-unsplash_edited.webp"
+                    alt="">
+
+            </div>
+            <div class="formulario">
+                <h1> Formulário de Inscrição </h1>
+                <form class="form" action="#" method="post">
+
+                    <label for="name">Nome:</label><br>
+                    <input type="text" class="name" /><br>
+                    <label for="date">Data de Nascimento:</label><br>
+                    <input type="date" class="date"><br>
+                    <label for="CPF">CPF:</label><br>
+                    <input type="text" name="cpf"><br>
+                    <button type="submit">Enviar</button><br>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
