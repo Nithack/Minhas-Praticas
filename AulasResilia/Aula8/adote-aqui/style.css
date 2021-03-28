@@ -12,6 +12,7 @@ body {
     width: 18.75vw;
     height: 18.75vw;
     object-fit: cover;
+    
 }
 
 .imagens:hover {
@@ -37,9 +38,18 @@ body {
 }
 
 .menu {
-    height: 100%;
-    margin-right: 10px;
-
+    background: black;
+}
+.menu ul{ 
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    
+}
+.menu li{
+    margin: 0px 5px;
+    list-style-type: none;
 }
 
 .header {
@@ -59,7 +69,7 @@ body {
 }
 
 .logo {
-    padding: 0rem 0rem 0rem 1rem;
+    margin: 0rem  1rem;
     font-size: 2rem;
     color: white;
 }
@@ -74,10 +84,10 @@ a {
 }
 
 .bottonMenu {
-    margin: 5px;
+
     color: white;
     text-align: center;
-
+    transition: 2s;
 }
 
 .bottonMenu:hover {
@@ -100,6 +110,7 @@ a {
         flex-direction: column;
         text-align: center;
         justify-content: center;
+        margin:0px;
 
     }
 
