@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    font: inherit;
+}
+body{
+    background-color: #f0f2f5;
+}
+.container{
+    width: 100vw;
+    justify-content:center;
+    align-items: center;
+}
+.perfilLogin{
+    margin-top: -100px;
+    margin-bottom: 25px;
+    
+}
+.flexBox{
+    display: flex;
+}
+.justifyCenter{
+    justify-content: center;
+    align-items: center;
+}
+.space-between{
+    justify-content:space-between;
+}
+.flexColumn{
+    flex-direction: column;
+    justify-content: center;
+
+}
+.loginScreen{
+    align-items: center;
+    width:980px;
+    margin:  200px 0px    
+}
+.loginDiv{ 
+    display:flex;
+    width:400px;
+    height:  auto;
+    justify-content:center;    
+
+}
+.loginInfo{
+    margin: 0px 0px 0px 10px;;
+}
+.loginInfo img{
+    height: 70px;
+    margin: -20px;
+}
+.loginInfo h1{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    margin:25px 0px 0px 0px;
+}
+.loginInfo p{
+    color: #606770;
+    margin: 5px 0px 0px 0px;;
+}
+.loginCards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+.perfilCard{
+    background-color: white;
+    width: 160px;
+    height: 240px;
+    text-align: center;
+    margin:5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    
+}
+
+.perfilName{
+    margin: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.perfilCard img{
+    width: 160px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+    
+
+
+}
+.loginForm{
+    display: flex;
+    background-color: white;
+    justify-content:center;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.loginForm input{
+    font-size: 17px;
+    width: 100%;
+    height:50px;
+    border-style: none;
+    border-radius: 6px;
+    padding: 6px;
+    
+    
+}
+.loginForm input:focus{
+    outline: none;
+    border: 1px solid  #166fe5;
+    
+}
+.loginFormDiv{
+    display: flex;
+    margin:10px 0px;
+    border: 1px solid  #ccc;
+    border-radius: 6px;
+    justify-content:center;
+    
+}
+.submitForm{
+    font-size: 20px;
+    margin :10px 0px;
+    color:white;
+    background-color: #166fe5;
+    width:100%;
+    height:50px;
+    border:none;
+    border-radius: 6px;
+    
+}
+.newAcc{
+    font-size: 20px;
+    color:white;
+    background-color: rgb(49, 201, 44);
+    width:50%;
+    height:50px;
+    border:none;
+    border-radius: 6px;
+    margin: 5px 0px;
+}
+.newPage{
+    font-size: 14px;
+    text-align: center;
+
+}
+.newPage a{
+    color:black;;
+    font-weight: 600;
+}
+form a{
+color:#166fe5;
+   text-align: center;
+   text-decoration: none;
+}
+.hr{
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px;
+    text-align: center;
+}
+@media (max-width:875px){
+    .conteudoRow{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        text-align: center;
+    
+    }
+}
