@@ -2,7 +2,7 @@ var nomeAlimento = prompt("Qual Alimento").toLowerCase();
 var valorSemanaAnterior = 0
 var valorSemanaAtual = 0
 
-if (nomeAlimento == "tomate" || nomeAlimento == "laranja" || nomeAlimento == "abacaxi" || nomeAlimento == "limão") {
+if (nomeAlimento == "tomate" || nomeAlimento == "laranja" || nomeAlimento == "abacaxi" || nomeAlimento == "limão" || nomeAlimento =="limao") {
     valorSemanaAnterior = prompt("Valor da semana Anterior")
     if(valorSemanaAnterior >= 0){
         valorSemanaAtual = prompt("Valor da semana Atual")
@@ -22,7 +22,7 @@ if (nomeAlimento == "tomate" || nomeAlimento == "laranja" || nomeAlimento == "ab
     }
 
 } else {
-    alert("Produto "+ nomeAlimento +  "não está na lista ")
+    alert("Produto "+ nomeAlimento +  " não está na lista ")
 }
 
 location.reload();
