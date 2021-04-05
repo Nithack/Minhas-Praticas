@@ -19,21 +19,21 @@ function dirigiBeber (idade){
 
 //---------------------CalculoKm----------------------------------
 
-// var litroGasolina = prompt("Quantos litros")
-// var fazPorLitro = prompt("Quantos km faz por litro")
+var litroGasolina = prompt("Quantos litros")
+var fazPorLitro = prompt("Quantos km faz por litro")
 
 function calculoKm(litroGasolina, fazPorLitro){
-    return ()=>{
-       alert("Você pode rodar: " + parseInt(litroGasolina) * parseInt(fazPorLitro) + "KM");
+    return (nome)=>{
+       alert(nome + " pode rodar: " + parseInt(litroGasolina) * parseInt(fazPorLitro) + "KM");
     };
 };
-
-// calculoKm(litroGasolina, fazPorLitro)();
+var nome = prompt("Qual o nome").toUpperCase()
+calculoKm(litroGasolina, fazPorLitro)(nome);
 
 //---------------------valorTotalGasolina--------------------------
 
-var valorGasolina = prompt('Qual o valor da gasolina?')
-var litrosGasolina = prompt('Quantos litros voce colocou de gasolina?')
+// var valorGasolina = prompt('Qual o valor da gasolina?')
+// var litrosGasolina = prompt('Quantos litros voce colocou de gasolina?')
 
 var totalValorGasolina = (valorGasolina, litrosGasolina)=>{
     return ()=>{
@@ -41,4 +41,4 @@ var totalValorGasolina = (valorGasolina, litrosGasolina)=>{
     };
 };
 
-totalValorGasolina(valorGasolina, litrosGasolina)();
+// totalValorGasolina(valorGasolina, litrosGasolina) ();
