@@ -6,37 +6,37 @@ function cardapio(sabor) {
     if (sabor == 1) {
         let valorPizza = 20.00
         let nomePizza = "Atum"
-        return calcularTroco(nomePizza, valorPizza)
+        return alertPizza(nomePizza, valorPizza)
 
     } else if (sabor == 2) {
         let valorPizza = 22.50
         let nomePizza = "Calabresa"
-        return calcularTroco(nomePizza, valorPizza)
+        return alertPizza(nomePizza, valorPizza)
 
     } else if (sabor == 3) {
         let valorPizza = 34.00
         let nomePizza = "Portuguesa"
-        return calcularTroco(nomePizza, valorPizza)
+        return alertPizza(nomePizza, valorPizza)
 
     } else if (sabor == 4) {
         let valorPizza = 20.00
         let nomePizza = "Musarela"
-        return calcularTroco(nomePizza, valorPizza)
+        return alertPizza(nomePizza, valorPizza)
 
     } else if (sabor == 5) {
         let valorPizza = 35.00
         let nomePizza = "Frango Com Caturpiry"
-        return calcularTroco(nomePizza, valorPizza)
+        return alertPizza(nomePizza, valorPizza)
     } else if (sabor == 6) {
         let valorPizza = 20.00
         let nomePizza = "Marguerita"
-        return calcularTroco(nomePizza, valorPizza)
-    }else if (sabor == 7){
+        return alertPizza(nomePizza, valorPizza)
+    } else if (sabor == 7) {
         let valorPizza = 37.00
         let nomePizza = "Brocoles com bacon"
-        return calcularTroco(nomePizza, valorPizza)
+        return alertPizza(nomePizza, valorPizza)
     }
-    
+
     else {
         return () => {
             alert('Pizza não encontrada')
@@ -44,11 +44,11 @@ function cardapio(sabor) {
     }
 }
 
-function calcularTroco(nomePizza, valorPizza) {
-    let vaiterTroco = (prompt("Vai precisar de troco ? \n1- Sim \n2- Não") == 1 ) ? true : false
-    if(vaiterTroco){
+function alertPizza(nomePizza, valorPizza) {
+    let vaiterTroco = (prompt("Vai precisar de troco ? \n1- Sim \n2- Não") == 1) ? true : false
+    if (vaiterTroco) {
         var valorDinheiro = parseInt(prompt("Dinheiro"))
-        if (valorDinheiro >= valorPizza) { 
+        if (valorDinheiro >= valorPizza) {
             return () => {
                 alert(`A pizza escolhida é de ${nomePizza}, no valor de R$${valorPizza}, O Troco sera de R$${valorDinheiro - valorPizza}`)
             }
@@ -57,7 +57,7 @@ function calcularTroco(nomePizza, valorPizza) {
                 alert(`Valor a ser pago invalido!`)
             }
         }
-    }else{
+    } else {
         return () => {
             alert(`A pizza escolhida é de ${nomePizza}, no valor de R$${valorPizza}, não sera necessário troco!`)
         }
