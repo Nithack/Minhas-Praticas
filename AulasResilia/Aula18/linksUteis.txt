@@ -1,0 +1,24 @@
+while(): laço de repetição 
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while
+
+
+Introdução à Refatoração:
+https://www.devmedia.com.br/introducao-a-refatoracao/21377
+
+Matemática básica no JavaScript
+https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Math
+
+mongoDdb
+http://desenvolvedor.ninja/mongodb-o-que-e-e-para-que-serve/
+
+13 conhecimento para um DEV
+https://becode.com.br/conhecimentos-essenciais-programador/
+
+for()
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for
+
+break
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/break
+
+Diferenças entre FOR e WHILE
+https://cursos.alura.com.br/forum/topico-diferencas-entre-for-e-while-24134
