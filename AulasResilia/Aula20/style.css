@@ -1,0 +1,19 @@
+.divPrincipal {
+    display: flex;
+    flex-direction: column;
+}
+.div1 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.div2 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(250, 9, 9);
+}
+.div3 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(51, 255, 0);
+}
